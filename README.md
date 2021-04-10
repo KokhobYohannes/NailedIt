@@ -24,7 +24,7 @@ Class notes re: project:
 
 An application created for users to leave reviews for nail techinicans within the DMV, specifically in the Tysons Corner area. Here, users log into their account and find their nail tech to leave a review based on their service. They can also rate their nail techs on a scale of 1 to 5 stars and view previous reviews and associated photos.
 
-# Screenshot:
+# Screenshot: ![GWU PROJECT 3 MOCKUP](https://user-images.githubusercontent.com/72357196/114280321-b7db0e80-9a06-11eb-9fed-8ee9b5a1807e.png)
 
 # User Story:
 
