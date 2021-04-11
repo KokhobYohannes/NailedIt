@@ -28,6 +28,8 @@ An application created for users to leave reviews for nail techinicans within th
 
 # Screenshot: ![GWU PROJECT 3 MOCKUP](https://user-images.githubusercontent.com/72357196/114280321-b7db0e80-9a06-11eb-9fed-8ee9b5a1807e.png)
 ![Reviews](https://user-images.githubusercontent.com/73563078/114320851-f98eb680-9ae5-11eb-840c-aaca7ceb9ef9.png)
+![Featured](https://user-images.githubusercontent.com/73563078/114322213-de737500-9aec-11eb-838b-ae82ca189c5e.png)
+
 
 
 # User Story:
