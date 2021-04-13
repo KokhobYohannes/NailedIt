@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/******  FONTS *******/ 
+body{
+  font-family: 'Tangerine', serif;
+}
+
+/* ********** NAVBAR **********/
+
+nav{
+    z-index: 2;
+    height: 150px;
+    
+}
+.container{
+    position: relative;
+}
+
+.navbar{
+    background-color:#570f17;
+  
+}
+
+.te{
+    position: absolute;
+    align-items: center;
+    color: white;
+    top:35px;
+    right:50%;
+    text-align:center;
+    font-size: 40px ;
+    font-family: 'Sacramento', cursive;
+   
+  /*text-shadow: 4px 4px 4px #aaa;*/
+    
+
+}
+/* MENU */
+
+nav a.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul li {
+    text-transform: uppercase;
+   color:white;
+  }
+
+  .navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .navbar-brand {
+      width: 7rem;
+    }
+  }
+
+ 
+
+  .navbar-nav > li > a.active, 
+.navbar-nav > li > a:focus {
+    color: white;
+    border-bottom: 0.15rem solid rgb(6, 24, 58);
+
+
+}
+
+
+.navbar-nav > li > a:hover {
+    border-bottom: 0.15rem solid rgb(6, 24, 58);
+   }
+
+/******* HEADER **************/
+
+   .header-wraper {
+    
+    background: url(background2.jpg) no-repeat;
+    width:100vw;
+    background-size: cover;
+   opacity: 60%;
+    height: 100vh;
+    position: relative;
+  }
+
+
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+   
+  }
+ 
+  a.btn-main-offer {
+    color: rgb(63, 37, 37);
+    background:white;
+    font-size: 2rem;
+    font-size: 30px;
+    border: 1px solid ;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: tangerine;
+   
+  }
+  
+  
+
+  /* ********************** Footer ************************ */
+
+.footer {
+   background: rgb(65, 62, 59);
+    padding: 4rem;
+    color:white;
+    height:auto;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: green;
+  }
+  
+  .footer a:hover{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+  
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
