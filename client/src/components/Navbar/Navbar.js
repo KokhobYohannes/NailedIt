@@ -22,13 +22,13 @@ export const Navbar = () => {
                cursorChar="!"
                loop
                /> */}
-            <h1>Nailed it !</h1>
+            <h1 className="navbar-title">Nailed it !</h1>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color:"black"}} />
         </button> 
   
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse-navbar-collapse" id="navbarSupportedContent">
                     
             <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
