@@ -34,7 +34,6 @@ function App() {
         <Route path="/about" component={About} /> */}
         <Header/>
 
-        {/*<Slideshow/>*/}
 
         
         
