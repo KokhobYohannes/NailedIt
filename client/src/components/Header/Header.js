@@ -1,4 +1,5 @@
 import React from "react";
+import Slideshow from "../Slideshow/Slideshow";
 //import Typed from "react-typed";
 import {Link} from "react-scroll";
 
@@ -6,6 +7,7 @@ const Header = () => {
     return (
        <div id="home" className="header-wraper" >
            <div className="main-info">
+           <Slideshow/>
                
                {/* <Typed
                className="typed-text"
@@ -14,11 +16,14 @@ const Header = () => {
                backSpeed={60}
                loop
                /> */}
-               <Link smooth={true} to="SignIn" offset={-110} className="btn-main-offer">Sign In</Link>
            </div>
 
        </div>
+
+
     )
 }
+
+
 
 export default Header;

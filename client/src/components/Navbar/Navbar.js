@@ -5,6 +5,8 @@ import {Link} from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 //import Typed from "react-typed";
+
+
 export const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg fixed-top">
@@ -23,6 +25,7 @@ export const Navbar = () => {
                loop
                /> */}
             <h1 className="navbar-title">Nailed it !</h1>
+            <p className="navbar-tagline"> Life isn't perfect, but your nails can be! </p>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color:"black"}} />
@@ -32,7 +35,7 @@ export const Navbar = () => {
                     
             <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-                <Link smooth={true} to="home" offset={-150} className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                <Link smooth={true} to="" offset={-150} className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
                 <Link smooth={true} to="about" offset={-150} className="nav-link" href="#">Reviews</Link>
@@ -47,7 +50,7 @@ export const Navbar = () => {
                 <Link smooth={true} to="portfolio" offset={-150} className="nav-link" href="#">About Us</Link>
             </li>
             <li className="nav-item">
-                <Link smooth={true} to="contacts" offset={-150} className="nav-link" href="#">Contact</Link>
+                <Link smooth={true} to="signin" offset={-150} className="nav-link" href="#">Sign In</Link>
             </li>
         
             </ul>
