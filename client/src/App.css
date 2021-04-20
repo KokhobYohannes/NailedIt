@@ -31,7 +31,7 @@ nav{
   font-family: 'Orelega One', cursive;
   font-family: 'Prata', serif;
   font-size: 1.6rem;
-  background-color: rosybrown;
+  background-color: pink;
   color: maroon;
   font-style: italic;
   width: 32rem;
@@ -106,7 +106,7 @@ nav ul li {
 .navbar-nav > li > a:hover {
   text-align: center;
   color: rgb(100, 5, 5);
-  background:rosybrown;
+  background:pink;
   /*font-size: 2rem;*/
   font-size: 20px;
   border-radius: 20px;
@@ -190,7 +190,7 @@ nav ul li {
 }
 
 .slideshowDot.active {
-  background-color: maroon;
+  background-color: pink;
 }
 
 
