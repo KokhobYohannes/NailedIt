@@ -2,7 +2,10 @@ import React from "react";
 
 import {Link} from "react-scroll";
 
-const colors = ["#FFFFFF", "#800000", "#ffc1c1"];
+
+
+
+const bgImagePaths = ['../../images/slide_0.jpg', "../../images/slide_1.jpg", '../../images/slide_2.jpg'];
 const delay = 2500;
 
 export function Slideshow() {
@@ -20,7 +23,7 @@ export function Slideshow() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === bgImagePaths.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -36,17 +39,24 @@ export function Slideshow() {
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
-        {colors.map((backgroundColor, index) => (
+        {bgImagePaths.map((imageUrl, index) => (
+        
           <div
             className="slide"
             key={index}
-            style={{ backgroundColor }}
-          ></div>
+            style={{
+               backgroundImage: `url(${imageUrl})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            width: '100%' }}
+          >
+       
+          </div>
         ))}
       </div>
 
       <div className="slideshowDots">
-        {colors.map((_, idx) => (
+        {bgImagePaths.map((_, idx) => (
           <div
             key={idx}
             className={`slideshowDot${index === idx ? " active" : ""}`}

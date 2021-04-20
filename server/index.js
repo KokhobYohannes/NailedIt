@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 
 
 app.use(express.json()); // apply any common request
+app.use(express.static('public'))
 
 //connect to mongoDB
 

@@ -125,7 +125,7 @@ nav ul li {
     background: url(background4.jpg) no-repeat;
     width:100vw;
     background-size: cover;
-   opacity: 60%;
+   opacity: 80%;
     height: 100vh;
     position: relative;
   }
@@ -149,7 +149,7 @@ nav ul li {
 
 .slideshow{
   /*margin: 0 auto;*/
-  margin-top: 200px;
+  margin-top: 250px;
   overflow: hidden;
   width: 50rem;
   height: 33rem;
